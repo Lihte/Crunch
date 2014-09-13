@@ -12,8 +12,12 @@ namespace CrunchProject
     {
         protected override void CreateScene()
         {
-            RenderManager.BackgroundColor = Color.CornflowerBlue;
+            Node myNode = new Node();
 
+            myNode.ToggleSelection();
+
+            RenderManager.BackgroundColor = Color.CornflowerBlue;
+            EntityManager.Add(myNode.getEntity());
             //Insert your code here
         }
     }
