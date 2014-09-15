@@ -39,23 +39,57 @@ namespace CrunchProject
             private set;
         }
 
-        Entity myEntity = new Entity("Node")
-       .AddComponent(new Sprite("Content/Sprite-icon.wpk"))
-       .AddComponent(new SpriteRenderer(DefaultLayers.Alpha))
-       .AddComponent(new Transform2D()
-       {
-           Y = WaveServices.Platform.ScreenHeight / 2,
-           X = WaveServices.Platform.ScreenWidth / 2
-       });
-       
-
-        public Node()
+        private string TexturePath
         {
-            PosX = 1;
-            PosY = 1;
+            get;
+            set;
+        }
+
+        private Entity myEntity;
+
+
+        public Node(string nodeName, int _posX, int _posY)
+        {
+            myEntity = new Entity(nodeName)
+               .AddComponent(new Sprite("Content/placeholder_GreenCrystal.wpk"))
+               .AddComponent(new SpriteRenderer(DefaultLayers.Alpha))
+               .AddComponent(new Transform2D()
+               {
+                   Y = _posY * 10,
+                   X = _posX * 10
+               });
+
+            //initializeNodeEntity(nodeName, crystalType, positionOffsetX, positionOffsetY);
+            PosX = _posX;
+            PosY = _posY;
             NodeValue = 10;
             Selected = false;
         }
+
+        //private void initializeNodeEntity(string nodeName, string crystalType, float positionOffsetX, float positionOffsetY)
+        //{
+        //    switch (crystalType)
+        //    {
+        //        case "red":
+        //            TexturePath = "Content/placeholder_RedCrystal.wpk";
+        //            break;
+        //        case "blue":
+        //            TexturePath = "Content/placeholder_BlueCrystal.wpk";
+        //            break;
+        //        case "green":
+        //            TexturePath = "Content/placeholder_GreenCrystal.wpk";
+        //            break;
+        //    }
+
+        //    myEntity = new Entity(nodeName)
+        //       .AddComponent(new Sprite(TexturePath))
+        //       .AddComponent(new SpriteRenderer(DefaultLayers.Alpha))
+        //       .AddComponent(new Transform2D()
+        //       {
+        //           Y = positionOffsetY,
+        //           X = positionOffsetX
+        //       });
+        //}
 
         public void ToggleSelection()
         {

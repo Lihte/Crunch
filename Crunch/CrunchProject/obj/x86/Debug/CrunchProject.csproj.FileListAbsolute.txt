@@ -18,3 +18,23 @@ C:\Users\Master\Documents\Visual Studio 2013\Projects\Git\Crunch\Crunch\CrunchPr
 C:\Users\Master\Documents\Visual Studio 2013\Projects\Git\Crunch\Crunch\CrunchProject\bin\x86\Debug\FarseerPhysics.xml
 C:\Users\Master\Documents\Visual Studio 2013\Projects\Git\Crunch\Crunch\CrunchProject\obj\x86\Debug\CrunchProject.dll
 C:\Users\Master\Documents\Visual Studio 2013\Projects\Git\Crunch\Crunch\CrunchProject\obj\x86\Debug\CrunchProject.pdb
+C:\Users\Master\Documents\GitHub\Crunch\Crunch\CrunchProject\bin\x86\Debug\CrunchProject.dll
+C:\Users\Master\Documents\GitHub\Crunch\Crunch\CrunchProject\bin\x86\Debug\CrunchProject.pdb
+C:\Users\Master\Documents\GitHub\Crunch\Crunch\CrunchProject\bin\x86\Debug\WaveEngine.Common.dll
+C:\Users\Master\Documents\GitHub\Crunch\Crunch\CrunchProject\bin\x86\Debug\WaveEngine.Components.dll
+C:\Users\Master\Documents\GitHub\Crunch\Crunch\CrunchProject\bin\x86\Debug\WaveEngine.Framework.dll
+C:\Users\Master\Documents\GitHub\Crunch\Crunch\CrunchProject\bin\x86\Debug\WaveEngine.Materials.dll
+C:\Users\Master\Documents\GitHub\Crunch\Crunch\CrunchProject\bin\x86\Debug\WaveEngine.Physics.dll
+C:\Users\Master\Documents\GitHub\Crunch\Crunch\CrunchProject\bin\x86\Debug\Zlib.Portable.dll
+C:\Users\Master\Documents\GitHub\Crunch\Crunch\CrunchProject\bin\x86\Debug\Bepu.dll
+C:\Users\Master\Documents\GitHub\Crunch\Crunch\CrunchProject\bin\x86\Debug\FarseerPhysics.dll
+C:\Users\Master\Documents\GitHub\Crunch\Crunch\CrunchProject\bin\x86\Debug\WaveEngine.Common.xml
+C:\Users\Master\Documents\GitHub\Crunch\Crunch\CrunchProject\bin\x86\Debug\WaveEngine.Framework.xml
+C:\Users\Master\Documents\GitHub\Crunch\Crunch\CrunchProject\bin\x86\Debug\WaveEngine.Components.xml
+C:\Users\Master\Documents\GitHub\Crunch\Crunch\CrunchProject\bin\x86\Debug\WaveEngine.Materials.xml
+C:\Users\Master\Documents\GitHub\Crunch\Crunch\CrunchProject\bin\x86\Debug\WaveEngine.Physics.xml
+C:\Users\Master\Documents\GitHub\Crunch\Crunch\CrunchProject\bin\x86\Debug\Bepu.xml
+C:\Users\Master\Documents\GitHub\Crunch\Crunch\CrunchProject\bin\x86\Debug\FarseerPhysics.xml
+C:\Users\Master\Documents\GitHub\Crunch\Crunch\CrunchProject\obj\x86\Debug\CrunchProject.csprojResolveAssemblyReference.cache
+C:\Users\Master\Documents\GitHub\Crunch\Crunch\CrunchProject\obj\x86\Debug\CrunchProject.dll
+C:\Users\Master\Documents\GitHub\Crunch\Crunch\CrunchProject\obj\x86\Debug\CrunchProject.pdb

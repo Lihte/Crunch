@@ -12,12 +12,24 @@ namespace CrunchProject
     {
         protected override void CreateScene()
         {
-            Node myNode = new Node();
+            GameBoard myGameBoard = new GameBoard(5, 5);
 
-            myNode.ToggleSelection();
+            //Node myNode = new Node("nodegreen", 10, 10);
+            //Node myNode1 = new Node("nodeblue", 30, 30);
+            //Node myNode2 = new Node("nodered", 50, 50);
+
+            //myNode.ToggleSelection();
 
             RenderManager.BackgroundColor = Color.CornflowerBlue;
-            EntityManager.Add(myNode.getEntity());
+
+            for (int i = 0; i < myGameBoard.BoardSize; i++)
+            {
+                EntityManager.Add(myGameBoard.Board[i].getEntity());
+            }
+
+            //EntityManager.Add(myNode.getEntity());
+            //EntityManager.Add(myNode1.getEntity());
+            //EntityManager.Add(myNode2.getEntity());
             //Insert your code here
         }
     }
